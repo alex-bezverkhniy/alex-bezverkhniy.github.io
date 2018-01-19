@@ -13,6 +13,10 @@
 /* BASE RULES */
 /**************/
 
+.ilike-blue-container {
+    @extend .blue, .lighten-4;
+}
+
 html {
   font-size: 100%;
 }
