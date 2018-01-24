@@ -33,4 +33,14 @@ According to [Strackoverflow.com](https://stackoverflow.com) report JavaScript i
 #### [Fun](#fun-lang) 
 JavaScript mostly used for frontend development and you can immediately see results of your work in browser (further I will show you how to code "in realtime"). There are various tools that will allow you to quickly get a working prototype with JavaScript. You can make HTML5 and Javascript games like [browser quest](http://browserquest.mozilla.org/) or [2048](http://gabrielecirulli.github.io/2048/).
 
-**TODO:**
+#### [Career Opportunities](#career-opport)
+JavaScript is also the most demanded programming skill. Average salary in the US for JavaScript/Node.js developers is about **$110,540**. It’s a great opportunity to get a good job out of learning Javascript.
+![Javascript Developer Salaries in the United States - www.indeed.com]({{ site.baseurl }}/images/javascript-posts/javascript-salary.png)
+
+## [What is the easiest way to learn JavaScript](#easiest-way-to-learn-js)
+
+Well if you are reading these lines you probably get interested in studying of JavaScript and wondering what is the easiest way to learn?... 
+I would say there is no easiest way to learn something... I can recommend you to use approach of mixing practicing and reading (i mentioned about it in my [Introduction or My Verry First Post](/Introduction)).
+
+**To be continued...**
+
