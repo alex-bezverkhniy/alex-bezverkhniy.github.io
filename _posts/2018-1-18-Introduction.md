@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction or My Verry First Post
+title: Introduction or My Very First Post
 description: First post about blog purpose
 tags: javascript begginers
 ---

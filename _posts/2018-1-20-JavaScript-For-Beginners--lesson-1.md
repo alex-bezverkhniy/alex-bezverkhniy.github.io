@@ -5,9 +5,9 @@ description: First post about blog purpose
 tags: javascript begginers
 ---
 
-## [What is the best programming language for beginners?](#best-prog-lang)
+OK, you decided to learn how to program. You probably have tons of questions. How should I start, from what should I start, Which programming language should I pickup??? I am going to introduce you into programming world and describe the basics stuff (like a program script, compiler, translator etc.) before you dive in deeper and will start writing you first program. If you already familiar with that or you find it boring you can skip it and go onto my [next lesson](#todo) which has more practical tasks.
 
-OK, you decided to learn how to program. You probably have tons of questions.. How should I start, from what should I start, Which programming language should I pickup???
+## [What is the best programming language for beginners?](#best-prog-lang)
 
 > When I started programming, we didn't have any of these sissy high level languages. All we had were zeros and ones - And some times we didn't even have ones... _- One Old Programmer_
 
@@ -40,7 +40,7 @@ JavaScript is also the most demanded programming skill. Average salary in the US
 ## [What is the easiest way to learn JavaScript](#easiest-way-to-learn-js)
 
 Well if you are reading these lines you probably get interested in studying of JavaScript and wondering what is the easiest way to learn?... 
-I would say there is no easiest way to learn something... I can recommend you to use approach of mixing practicing and reading (i mentioned about it in my [Introduction or My Verry First Post](/Introduction)).
+I would say there is no easiest way to learn something... I can recommend you to use approach of mixing practicing and reading (I mentioned about it in my [Introduction or My Very First Post](/Introduction)).
 
 **To be continued...**
 
