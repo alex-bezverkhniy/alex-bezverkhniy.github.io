@@ -42,5 +42,6 @@ JavaScript is also the most demanded programming skill. Average salary in the US
 Well if you are reading these lines you probably get interested in studying of JavaScript and wondering what is the easiest way to learn?... 
 I would say there is no easiest way to learn something... I can recommend you to use approach of mixing practicing and reading (I mentioned about it in my [Introduction or My Very First Post](/Introduction)).
 
+![How compiler works]({{ site.baseurl }}/images/javascript-posts/basics-compiler.png)
 **To be continued...**
 

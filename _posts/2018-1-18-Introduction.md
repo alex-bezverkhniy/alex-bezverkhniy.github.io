@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Introduction or My Very First Post
 description: First post about blog purpose
 tags: javascript beginners
@@ -13,3 +14,5 @@ Here is the example of JavaScript:
 <script async src="//jsfiddle.net/alexhustas/7LL9w1yk/1/embed/js,result/"></script>
 
 So read, learn, "play code" and have fun!
+
+
