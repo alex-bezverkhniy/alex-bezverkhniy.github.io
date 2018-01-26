@@ -22,15 +22,17 @@ We can split programming languages in to two big groups [Scripting languages](ht
 In several words _Source Code_ is collection of commands or even instructions written in human-readable programming language, which usually looks like a plain text. I case of _JavaScript_ we will call it a *script*.
 
 Here is an example of **JavaScript** _code_ which just print greeting message.
-<script async src="//jsfiddle.net/alexhustas/7LL9w1yk/1/embed/js,result/"></script>
+<p data-height="118" data-theme-id="light" data-slug-hash="aEeQPV" data-default-tab="js,result" data-user="alex-bezverkhniy" data-embed-version="2" data-pen-title="tiny js" class="codepen">See the Pen <a href="https://codepen.io/alex-bezverkhniy/pen/aEeQPV/">tiny js</a> by Alexander Bezverkhniy (<a href="https://codepen.io/alex-bezverkhniy">@alex-bezverkhniy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 In my further lessons I will explain meaning of `document` and `write(...)`, so far you need to remember that we use it for output something on screen.
 
 ### [Syntax and Basics of JavaScript](#basic_elem_prog)
 [Syntax](https://en.wikipedia.org/wiki/JavaScript_syntax) of **JavaScript** and any other programming languages is the set of rules that define a correctly structured program. In other words it is like grammar for human language. We have to fallow these rule to make our program (or source code) readable for _interpreter_. We could not say or write to _interpreter_ "let's write 'Hi' on the screen" it does not understand us. 
 
 Lets start from the practical example:
-<a class="jsbin-embed" href="http://jsbin.com/sexahem/6/embed?js,console">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.1.2"></script>
-From the left side you can see _JavaScript_ code from right _Console_ - result of working of this script.
+<p data-height="265" data-theme-id="light" data-slug-hash="eyqQMB" data-default-tab="js,result" data-user="alex-bezverkhniy" data-embed-version="2" data-pen-title="eyqQMB" class="codepen">See the Pen <a href="https://codepen.io/alex-bezverkhniy/pen/eyqQMB/">eyqQMB</a> by Alexander Bezverkhniy (<a href="https://codepen.io/alex-bezverkhniy">@alex-bezverkhniy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+From the left side _JS_ tab - JavaScript code from right side - _Result_ output  of this script.
 
 #### [Reserved Words or Keywords](#reserved_words)
 All programming languages have [Keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords) it is **Reserved Words** for special language purpose. We ca consider these words as special command. You can find full list of keywords [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords).
