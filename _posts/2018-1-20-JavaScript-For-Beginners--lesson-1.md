@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Javascript For Beginners - Lesson 1
+title: Javascript For Beginners. Lesson 1 - What should I start with? 
 description: First post about blog purpose
-tags: javascript begginers
+tags: javascript beginners
 ---
 
 OK, you decided to learn how to program. You probably have tons of questions. How should I start, from what should I start, Which programming language should I pickup??? I am going to introduce you into programming world and describe the basics stuff (like a program script, compiler, translator etc.) before you dive in deeper and will start writing you first program. If you already familiar with that or you find it boring you can skip it and go onto my [next lesson](#todo) which has more practical tasks.
@@ -42,6 +42,5 @@ JavaScript is also the most demanded programming skill. Average salary in the US
 Well if you are reading these lines you probably get interested in studying of JavaScript and wondering what is the easiest way to learn?... 
 I would say there is no easiest way to learn something... I can recommend you to use approach of mixing practicing and reading (I mentioned about it in my [Introduction or My Very First Post](/Introduction)).
 
-![How compiler works]({{ site.baseurl }}/images/javascript-posts/basics-compiler.png)
-**To be continued...**
+If you not familiar with basic concepts of programming you can go and read my second lesson - Otherwise you can skip second one and go onto third lesson - .
 
