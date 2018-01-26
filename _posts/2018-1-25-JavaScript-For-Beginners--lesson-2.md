@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript For Beginners. Lesson 2 - Common programing concepts? 
+title: Javascript For Beginners. Lesson 2 - Common programing concepts. 
 description: First post about blog purpose
 tags: javascript beginners
 ---
@@ -23,9 +23,14 @@ In several words _Source Code_ is collection of commands or even instructions wr
 
 Here is an example of **JavaScript** _code_ which just print greeting message.
 <script async src="//jsfiddle.net/alexhustas/7LL9w1yk/1/embed/js,result/"></script>
+In my further lessons I will explain meaning of `document` and `write(...)`, so far you need to remember that we use it for output something on screen.
 
 ### [Syntax and Basics of JavaScript](#basic_elem_prog)
 [Syntax](https://en.wikipedia.org/wiki/JavaScript_syntax) of **JavaScript** and any other programming languages is the set of rules that define a correctly structured program. In other words it is like grammar for human language. We have to fallow these rule to make our program (or source code) readable for _interpreter_. We could not say or write to _interpreter_ "let's write 'Hi' on the screen" it does not understand us. 
+
+Lets start from the practical example:
+<a class="jsbin-embed" href="http://jsbin.com/sexahem/6/embed?js,console">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.1.2"></script>
+From the left side you can see _JavaScript_ code from right _Console_ - result of working of this script.
 
 #### [Reserved Words or Keywords](#reserved_words)
 All programming languages have [Keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords) it is **Reserved Words** for special language purpose. We ca consider these words as special command. You can find full list of keywords [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords).
@@ -33,8 +38,15 @@ All programming languages have [Keywords](https://developer.mozilla.org/en-US/do
 For example keyword `var` define variable. 
 
 #### Variables
-Important part of all programming languages is [Variables](https://en.wikipedia.org/wiki/Variable_(computer_science)). In several words, it is storage location in memory with specific name. You can imaging memory like a big catalog-cabinet where each box has _name_ and you can easily put and get same values using that _name_.
+Important part of all programming languages is [Variables](https://en.wikipedia.org/wiki/Variable_(computer_science)). In several words, it is storage location in memory with specific name. In general _Variables_ works like a big catalog-cabinet where each box has _name_ and you can easily put and get values using that _name_.
 
 ![old fashion cabinet]({{ site.baseurl }}/images/javascript-posts/erol-ahmed-460277.jpg)
 Photo by [Erol Ahmed](https://unsplash.com/photos/Y3KEBQlB1Zk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com)
 
+Here is examples how to declare variable:
+```javascript
+var myFirstVariable;
+
+```
+
+You can check variable name [here](https://mothereff.in/js-variables) I found this tool very useful for compete beginners.
