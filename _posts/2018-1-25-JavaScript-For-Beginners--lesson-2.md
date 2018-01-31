@@ -32,12 +32,25 @@ In my further lessons I will explain meaning of `document` and `write(...)`, so 
 Lets start from the practical example:
 <p data-height="265" data-theme-id="light" data-slug-hash="eyqQMB" data-default-tab="js,result" data-user="alex-bezverkhniy" data-embed-version="2" data-pen-title="eyqQMB" class="codepen">See the Pen <a href="https://codepen.io/alex-bezverkhniy/pen/eyqQMB/">eyqQMB</a> by Alexander Bezverkhniy (<a href="https://codepen.io/alex-bezverkhniy">@alex-bezverkhniy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-From the left side _JS_ tab - JavaScript code from right side - _Result_ output  of this script.
+
+{:.info} 
+Tab _JS_ - JavaScript code. Tab _Result_ - output of this script.
+This script is your first "[Hello World program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)" ;-)
+You can edit this code by clicking on "edit on [codepen](https://codepen.io)". in right tom corner.
+
+Here is code explanation (by lines):
+
+1. Creates variable with name `myVariable` and set value `'Hello World!'`
+2. Uses method `write` of object `document` for writing value of variable onto document.
+
+If you click on _Result_ tab you could see result of this program. 
+
+Now let's dive into theoretical part of JS.
 
 #### [Reserved Words or Keywords](#reserved_words)
 All programming languages have [Keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords) it is **Reserved Words** for special language purpose. We ca consider these words as special command. You can find full list of keywords [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords).
 
-For example keyword `var` define variable. 
+For example keyword `var`, from our previous example, defines variable. 
 
 #### Variables
 Important part of all programming languages is [Variables](https://en.wikipedia.org/wiki/Variable_(computer_science)). In several words, it is storage location in memory with specific name. In general _Variables_ works like a big catalog-cabinet where each box has _name_ and you can easily put and get values using that _name_.
@@ -48,7 +61,19 @@ Photo by [Erol Ahmed](https://unsplash.com/photos/Y3KEBQlB1Zk?utm_source=unsplas
 Here is examples how to declare variable:
 ```javascript
 var myFirstVariable;
-
+```
+To set or give a value to variable we use special operator `=`.
+```javascript
+var myVariable = 'Hello World!';
 ```
 
-You can check variable name [here](https://mothereff.in/js-variables) I found this tool very useful for compete beginners.
+{:.info}
+ A semicolon at the end of a line indicates where a statement ends; it is only absolutely required when you need to separate statements on a single line.
+
+ {:.warning}
+ JavaScript is case sensitive — `myVariable` is a different variable to `myvariable`. If you are getting problems in your code, check the casing!
+
+You can use any name for your variable by here is [same restrictions](http://www.codelifter.com/main/tips/tip_020.shtml). You can check variable name [here](https://mothereff.in/js-variables).
+
+##### Now time for practice!
+Clink on to ![edit on codepen]({{ site.baseurl }}/images/javascript-posts/edit-on-codepen.png){:style="width:100px"}
