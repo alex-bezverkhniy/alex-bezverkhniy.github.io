@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Spring Boot Server as a groovy script. 
+title: Spring Boot Server as a Groovy script. 
 description: How to easily create and run Spring Boot Server as a groovy script.
 tags: groovy spring-boot cheat-sheet
 ---
 
-With this post I am going to start series of post related with my **[Cheat Sheet]({{ site.baseurl }}/tag/cheat-sheet/)**. Example of simple [Goovy](http://groovy-lang.org) script initializes and run one controller and [Spring Boot](https://projects.spring.io/spring-boot/) server.
+With this post I am going to start series of post related with my **[Cheat Sheet]({{ site.baseurl }}/tag/cheat-sheet/)**. Here is an example of simple [Goovy](http://groovy-lang.org) script which initializes and runs [Spring Boot](https://projects.spring.io/spring-boot/) server.
 
 Sometimes when I am working with my new POC project, e.g. JavaScript UI app, I need simple and lightweight REST server which I could quickly modify. I wrote this simple Groovy script for that purpose.
 
@@ -101,14 +101,14 @@ public class TodosController  {
 
 ## Short explanation
 
-1) Loads required dependencies from maven repository.
+1) Load required dependencies from maven repository.
 
 {:.nolineno}
 ```groovy 
 @Grab('org.springframework.boot:spring-boot-starter-web:1.1.7.RELEASE')
 @Grab('org.springframework.boot:spring-boot-starter-actuator:1.1.7.RELEASE')
 ```
-2) Defines class/controller/main app. You can easily change base path of your API by editing `@RequestMapping(value="/api/todos")`
+2) Define class/controller/main app in one class. As you see I put `RequestMapping` to set base path, you can easily change it by replacing `/api/todos`.
 
 {:.nolineno}
 ```groovy
@@ -118,7 +118,7 @@ public class TodosController  {
 public class TodosController  {
     ...
 ``` 
-3) As data a storage I use List of Maps which I keep in memory. Groovy allow us define Map by using simple syntax.
+3) As a Data Storage I use [List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html) of [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)s which I keep in memory. Groovy allows us define _Map_ by using simple syntax.
 
 {:.nolineno}
 ```groovy
@@ -143,7 +143,7 @@ To run this code use next command
 groovy rest-server.groovy
 ```
 
-Here is simple curl based tests:
+Here is a simple curl based tests:
 
 ### Create new task
 {:.nolineno}
