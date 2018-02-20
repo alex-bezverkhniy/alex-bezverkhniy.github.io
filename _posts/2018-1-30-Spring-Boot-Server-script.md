@@ -2,7 +2,7 @@
 layout: post
 title: Spring Boot Server as a Groovy script. 
 description: How to easily create and run Spring Boot Server as a groovy script.
-tags: groovy spring-boot cheat-sheet
+tags: groovy spring-boot cheat-sheet microservices
 ---
 
 With this post I am going to start series of post related with my **[Cheat Sheet]({{ site.baseurl }}/tag/cheat-sheet/)**. Here is an example of simple [Goovy](http://groovy-lang.org) script which initializes and runs [Spring Boot](https://projects.spring.io/spring-boot/) server.
