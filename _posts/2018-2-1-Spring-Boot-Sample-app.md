@@ -115,7 +115,7 @@ Implement all business logic inside services, and use controllers for handling r
 
 So you can see that we don't have business logic; in our _controller_:
 ```java
-@Controller
+@RestController
 @RequestMapping(value = "/api/sample")
 public class SampleController {
 
