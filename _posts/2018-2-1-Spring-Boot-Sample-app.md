@@ -5,11 +5,11 @@ description: Sample Spring Boot application - which you can use as a template fo
 tags: java spring-boot cheat-sheet maven gradle microservices
 ---
 
-[Spring Ecosystem](https://spring.io/) is so popular in "Java World" for last several years and if you want to be on the cutting-edge of Java technologies you should to have [Spring Boot](https://projects.spring.io/spring-boot/) in your skills list. I am going to show how to level up your String application with _Spring Boot_.
+[Spring Ecosystem](https://spring.io/) has been so popular in "Java World" for the last several years and if you want to be on the cutting-edge of Java technologies you should have [Spring Boot](https://projects.spring.io/spring-boot/) in your skills set. I am going to show how to level up your String application with _Spring Boot_.
 
 ![Spring Boot logo]({{ site.baseurl }}/images/spring-boot/spring-boot-logo.png)
 
-I use Spring Boot almost in all my Java Projects. This framework or tool set really makes easy to create _Spring Applications_. Here is basic useful features:
+I use Spring Boot almost in all my Java Projects. This framework or tool set really makes easy to create _Microservices Applications_. Here is basic useful features:
 - Embed Tomcat, Jetty or Undertow
 - Automatic configurations 
 - Production-ready features and tools.
@@ -17,7 +17,7 @@ I use Spring Boot almost in all my Java Projects. This framework or tool set rea
 
 You can find more details [here](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features).
 
-I created "template project" for quick start. [spring-boot-sample](https://github.com/alex-bezverkhniy/spring-boot-sample). Welcome to fork and use!
+I created "template project" for quick start. [spring-boot-sample](https://github.com/alex-bezverkhniy/spring-boot-sample). Welcome to fork it and use!
 In this post I am going to provide short description/explanation on this project.
 
 ## [Requirements](#requirements)
