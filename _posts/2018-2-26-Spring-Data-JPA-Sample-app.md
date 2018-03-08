@@ -117,7 +117,8 @@ To show features of _Spring Data JPA_ I decided to implement _Todo REST API_ whi
 
 ### [Project structure](project-structure)
 
-```
+{:.nolineno}
+```ssh
 └── src
 │   ├── main
 │   │   ├── java
@@ -168,4 +169,130 @@ To show features of _Spring Data JPA_ I decided to implement _Todo REST API_ whi
 
 As you see project has only two related entities `Task.java`, `TodoList.java` which extend one common super class - `BaseEntity.java`. By extending `BaseEntity.java` I want to show how can we define common fields, audit fields: `createdAt`, `updatedAt`, `createdBy`, `updatedBy`.
 
-In project we use next Data Base structure:
+### [Entities Diagram](entities-diagram)
+
+In project we use next Domain structure:
+
+![Entities Diagram]({{ site.baseurl }}/images/spring-boot/entities-diagram.png)
+
+### [DataBase Configuration](database-configuration)
+
+This is _String Boot_ project and all configurations you can find in _application.yml_ file. Here is what we have in that file:
+
+```yaml
+spring:
+  application:
+    name: todo-api
+  datasource:
+    url: jdbc:h2:mem:todoDB;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+---
+
+spring:
+  profiles: test
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/todoDB
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+```
+As you can project has only two profiles _default_ and _test_. By default we use embedded [H2 database](http://www.h2database.com/) and for _test_ profile I use H2 database as standalone server. 
+
+
+## [Run application and call endpoints](run-project-and-call-endpoints)
+
+As I mentioned above [this project](https://github.com/alex-bezverkhniy/spring-data-jpa-sample) is just REST interface for database and I use _Spring Boot_ and embedded _Tomcat_ server to lift up REST controllers and handle HTTP requests.
+
+### [Run application](run-application)
+
+Before run application you need to build this project
+
+#### [Build with Maven](build-with-maven)
+```ssh
+mvn clean install
+```
+
+In case of successful build you should expect this message and should see file `spring-data-jpa-sample-0.0.1-SNAPSHOT.jar` file under `target` folder.
+```ssh
+...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.244 s
+...
+```
+
+#### [Build with Gradle](build-with-gradle)
+```ssh
+gradle clean build
+```
+In case of successful build you should expect this message and should see file `spring-data-jpa-sample-0.0.1-SNAPSHOT.jar` file in `build/libs`.
+```ssh
+...
+BUILD SUCCESSFUL in 14s
+8 actionable tasks: 8 executed
+...
+```
+
+#### [Run Application](build-with-gradle)
+
+To run application use next command `java -jar target/spring-data-jpa-sample-0.0.1-SNAPSHOT.jar` or `java -jar build/libs/spring-data-jpa-sample-0.0.1-SNAPSHOT.jar` depending on which tool you use for building.
+
+### [Call application](call-application) 
+
+Now we can call our application and do some "smoke test". Here are some examples how can we call through [curl](https://curl.haxx.se)
+
+#### Create Task
+*Task data:*
+```json
+{
+  "title": "Sample Task",
+  "description": "Just simple task",
+  "isComplete": false
+}
+```
+
+```ssh
+curl -X POST \
+-H 'Content-Type: application/json' \
+-d '{
+      "title": "Sample Task",
+      "description": "Just simple task",
+      "isComplete": false
+    }' \
+'http://localhost:8080/api/tasks/' \
+| python -m json.tool
+```
+
+#### Read Task
+```ssh
+curl -X GET 'http://localhost:8080/api/tasks/1' | python -m json.tool
+```
+
+#### Update Task
+*Task data:*
+```json
+{
+  "title": "Sample Task",
+  "description": "Just simple task",
+  "isComplete": false
+}
+```
+
+```ssh
+curl -X PUT \
+-H 'Content-Type: application/json' \
+-d '{
+      "title": "Sample Task",
+      "description": "Just simple task",
+      "isComplete": false
+    }' \
+'http://localhost:8080/api/tasks/1' \
+| python -m json.tool
+```
+
+You can find source code of this project in my [github repository](https://github.com/alex-bezverkhniy/spring-data-jpa-sample). Welcome to ask questions in comments.
