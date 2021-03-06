@@ -11,3 +11,8 @@ There are so many [awesome stuff](https://kotlin.link/) already implemented on k
 but recently I found another cool framework [Ktor](https://ktor.io/).
 
    > Ktor is an asynchronous framework for creating microservices, web applications, and more. It’s fun, free, and open source.
+
+In next several steps I am going to create simple HTTP(REST) API for Scheduller app.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTUwMDI0NTUzOV19
+-->
