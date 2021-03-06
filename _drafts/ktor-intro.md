@@ -5,4 +5,5 @@ description: Sample Ktor application - which you can use as a template for you p
 tags: kotlin ktor cheat-sheet  gradle microservices REST
 ---
 
-In this short tutorial I am going to introduse 
+In this short tutorial I am going to introduce new Kotlin framework - [Ktor](https://ktor.io/).
+Sin
