@@ -1,8 +1,8 @@
 ---
 layout: post
-title: [WIP] How to evolve tutorial project into real world app
+title: How to evolve tutorial project into real world app
 description: How to move away from writing tutorial projects and create "real world application".
-tags: go golang microservices gorm gofiber
+tags: golang microservices gorm gofiber
 ---
 
 ![](https://images.unsplash.com/photo-1591262184859-dd20d214b52a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)
